@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 20px;
+}
+
+#userImage {
+    flex-basis: 30%;
+    height: 300px !important;
+    border-radius: 50% !important;
+}
+
+
+
+.userInfo {
+    flex-basis: 70%;
+    margin: 40px 10px;
+}
+
+.user-info-items {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #575654;
+}
+
+.userInfo span {
+    /* display: inline; */
+    color: white;
+    font-weight: 500;
+}
