@@ -5,7 +5,7 @@
     margin: 40px 20px;
 }
 
-#userImage {
+#user-Image {
     flex-basis: 30%;
     height: 300px !important;
     border-radius: 50% !important;
@@ -13,7 +13,7 @@
 
 
 
-.userInfo {
+.user-Info {
     flex-basis: 70%;
     margin: 40px 10px;
 }
@@ -25,8 +25,29 @@
     background-color: #575654;
 }
 
-.userInfo span {
+.user-Info span {
     /* display: inline; */
     color: white;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 40px 20px;
+    }
+
+    #user-Image {
+        height: 300px !important;
+        border-radius: 50% !important;
+    }
+
+
+
+    .user-Info {
+        margin: 40px 10px;
+    }
+
 }

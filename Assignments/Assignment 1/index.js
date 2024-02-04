@@ -8,8 +8,7 @@ function fetchUserData(event) {
         if (xhr.status == 200) {
             const data = JSON.parse(xhr.responseText);
             console.log(data);
-            document.getElementById("userImage").setAttribute("src", data.avatar_url)
-            console.log("Azan")
+            document.getElementById("user-Image").setAttribute("src", data.avatar_url)
             document.getElementById("followers").setAttribute("value", data.followers)
             document.getElementById("name").setAttribute("value", data.name)
             document.getElementById("following").setAttribute("value", data.following)
